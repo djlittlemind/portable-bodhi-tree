@@ -1,4 +1,4 @@
-# portable-bohdi-tree
+# portable-bodhi-tree
 An extension for Chrome and Firefox.
 
 
