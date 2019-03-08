@@ -1,6 +1,6 @@
 {
 	"name": "Portable Bodhi Tree",
-	"version": "1.2",
+	"version": "1.3",
     "description": "Illuminates non-production environments at MCCKC.EDU",
 	"permissions": ["declarativeContent", "https://*.mcckc.edu/*"],
     "background": {
