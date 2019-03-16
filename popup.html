@@ -1,42 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<style>
-	
-		#bold {
-			color: #bc2095;
-			font-size: 120%;
-			font-weight: bold;
-			margin-top: 12px;
-		}
-		
-		#bold-plus {
-			color: #bc2095;
-			font-size: 140%;
-			font-weight: bold;
-			margin-top: 12px;
-			text-shadow: 1px 1px #8e6918;
-		}
-		
-		body {
-			width: 210px;
-			border: 4px groove #bc2095;
-			border-radius: 12px;
-		}
-		
-		#text {
-			text-align: center;
-		}
-		
-		#tree {
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-			margin-top: 12px;
-			box-shadow: 2px 2px 4px #8e6918;
-		}
-		
-	</style>
+	<link rel="stylesheet" href="popstyle.css" />
+
 </head>
 
 <body>
@@ -44,12 +10,26 @@
 		
 	<div id ="text">
 		Are you in<br>
-		<span id="bold">QAT</span>, <span id="bold">TST</span>, or <span id="bold">TRN</span>? 
+		<span class="bold">QAT</span>, <span class="bold">TST</span>, or <span class="bold">TRN</span>?
 		<br><br>
 		The<br>
-		<span id="bold-plus">Portable Bodhi Tree</span> <br>
-		extension will illuminate <br>
-		this for you!
+		<span class="bold-plus">Portable Bodhi Tree</span> <br>
+		extension will illuminate this for you!<br><br>
+
+		<span class="bold">Select Background Highlight Color</span>
+		<br>
+
+		<button class="color_button" id="button1"></button>
+		<button class="color_button" id="button2"></button>
+		<button class="color_button" id="button3"></button>
+		<button class="color_button" id="button4"></button>
+		<button class="color_button" id="button5"></button>
+		<button class="color_button" id="button6"></button>
+		<br>
+		<button id="sampleColor"></button>
 	</div>
+	<div id="text_text"></div>
+
+<script src="popup.js"></script>
 </body>
 </html>
